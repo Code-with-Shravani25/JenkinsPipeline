@@ -3,7 +3,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_instances" {
-  count         = 2  # Launch 2 EC2 instances
   ami           = "ami-04b4f1a9cf54c11d0"  # Replace with latest Amazon Linux 2 AMI
   instance_type = "t2.micro"
 }
