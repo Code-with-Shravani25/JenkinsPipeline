@@ -9,5 +9,5 @@ resource "aws_instance" "my_instances" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-unique-bucket-name-12345"  # Change to a globally unique name
+  bucket = "ASDRTFGHYJUHNBF"  # Change to a globally unique name
 }
